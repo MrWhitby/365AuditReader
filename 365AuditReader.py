@@ -50,8 +50,9 @@ def process_csv(input_file, output_file):
 
 
 # Input and output file paths (adjust the path as necessary)
-input_file_path = "C:/Users/jacob/Downloads/83f6482e-6852-4b9e-9c10-6d60ceeea9fa.csv"
-output_file_path = "C:/Users/jacob/Downloads/readable_audit_log.csv"
+input_file_path = "path/to/your/input_audit_log.csv"
+output_file_path = "path/to/your/output_readable_audit_log.csv"
+
 
 # Process the CSV file and make it human-readable
 df = process_csv(input_file_path, output_file_path)
